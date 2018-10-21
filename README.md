@@ -5,3 +5,4 @@ yinlianLearn
 ---20180402
 ---20180402第二次修改
 ---git commit -m "release"
+---this is fuck.
