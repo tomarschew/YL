@@ -1,0 +1,1000 @@
+  113  rosdep update
+  114  echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+  115  source ~/.bashrc 
+  116  cd /opt/
+  117  ll
+  118  sudo rm ros/ -r
+  119  ll
+  120  cd /opt/ros/kinetic/
+  121  ll
+  122  sudo rosdep init
+  123  ll
+  124  ./clion.sh 
+  125  rostopic
+  126  ll /opt/ros/kinetic/
+  127  cd /opt/ll
+  128  cd /opt
+  129  ll
+  130  rm -fr ros/
+  131  sudo rm -fr ros/
+  132  python2
+  133  sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+  134  sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+  135  sudo apt-get update
+  136  sudo apt-get install ros-kinetic-desktop-full
+  137  ll
+  138  sudo apt-get install ros-kinetic-desktop-full
+  139  ll /opt/
+  140  sudo apt-get remove ros
+  141  sudo apt-get install ros-kinetic-desktop-full
+  142  sudo apt-get remove ros-kinetic-desktop-full
+  143  sudo apt-get install ros-kinetic-desktop-full
+  144  sudo apt-get remove ros*
+  145  sudo apt-get install ros-kinetic-desktop-full
+  146  sudo rosdep init
+  147  rm /etc/ros/rosdep/sources.list.d/20-default.list
+  148  sudo rm /etc/ros/rosdep/sources.list.d/20-default.list
+  149  sudo rosdep init
+  150  sudo rosdep update
+  151  sudo rosdep init
+  152  echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+  153  source ~/.bashrc 
+  154  rviz
+  155  cd /opt/
+  156  ll
+  157  ll ros/
+  158  ll ros/kinetic/
+  159  export ROS_MASTER_URI=http://10.7.5.88:11311
+  160  rostopic list 
+  161  rostopic echo /rgb_image_hd
+  162  rostopic list 
+  163  ssh gaussian@10.7.5.88
+  164  export ROS_MASTER_URI=http://10.7.5.88:11311
+  165  rostopic list
+  166  rostopic echo /rgb_image_hd
+  167  ssh 88
+  168  ssh gaussian:10.7.5.88
+  169  ssh gaussian@10.7.5.88
+  170  export ROS_MASTER_URI=http://10.7.5.88:11311
+  171  rostopic list
+  172  rostopic echo /rgb_image_hd
+  173  rviz
+  174  roscore
+  175  rostopic echo /camera/image
+  176  rviz
+  177  rviz 
+  178  mkdir catkin_ws
+  179  cd catkin_ws/
+  180  ll
+  181  mkdir src
+  182  catkin_make
+  183  source devel/setup.sh 
+  184  rosrun my_image_transport my_publisher_video 
+  185  cd src/
+  186  ll
+  187  cd my_image_transport/
+  188  ll
+  189  cd topic_test/
+  190  ll
+  191  vim my_publisher_video.cpp 
+  192  cd ~/catkin_ws/
+  193  catkin_make
+  194  rosrun my_image_transport my_publisher_video 
+  195  cd src/
+  196  ll
+  197  cd my_image_transport/
+  198  ll
+  199  cd bag/
+  200  ll
+  201  rosbag record /rgb_image_hd
+  202  rosbag play 2018-09-17-15-55-33.bag 
+  203  rosbag record /rgb_image_hd
+  204  rosbag play 2018-09-17-16-20-43.bag 
+  205  ll
+  206  cd\
+  207  cd
+  208  cd Documents/
+  209  ls
+  210  cd semantic-segmentation-editor/
+  211  meteor npm install
+  212  meteor --settings settings.json 
+  213  ls
+  214  mkdir images
+  215  ls
+  216  history 
+  217  vi settings.json 
+  218  mkdir images
+  219  mkdir images1 images2
+  220  meteor --settings settings.json 
+  221  ls
+  222  pwd
+  223  vi ./settings.json 
+  224  meteor --settings settings.json 
+  225  cd Downloads/
+  226  chmod +x install.meteor.com 
+  227  ls
+  228  sh install.meteor.com
+  229  cd Documents/
+  230  ls
+  231  cd semantic-segmentation-editor/
+  232  npm --settings settings.json 
+  233  meteor --settings settings.json 
+  234  ls
+  235  cd catkin_ws/
+  236  ls
+  237  c src/
+  238  cd src/
+  239  ks
+  240  l
+  241  ls
+  242  git clone git@github.com:ros-drivers/velodyne.git
+  243  cd ..
+  244  catkin_make
+  245  sudo apt-get install libpcap-dev 
+  246  catkin_make
+  247  cd
+  248  rosrun velodyne_driver velodyne_node _model:=VLP16 _pcap:=/home/gs/code/demo_data/16_demo/lidar.pcap _read_once:=true
+  249  source .bashrc 
+  250  rosrun velodyne_driver velodyne_node _model:=VLP16 _pcap:=/home/gs/code/demo_data/16_demo/lidar.pcap _read_once:=true
+  251  roscore
+  252  cd
+  253  cd code/
+  254  ls
+  255  cd demo_data/
+  256  ls
+  257  cd 16_demo/
+  258  ls
+  259  pwd
+  260  vim ~/.bashrc 
+  261  cd
+  262  cd catkin_ws/devel/
+  263  ls
+  264  pwd
+  265  ls
+  266  rosrun rosbag record -O your_vlp16_070815.bag /velodyne_packets
+  267  cd
+  268  vim .bashrc 
+  269  rostopic list 
+  270  ls
+  271  ll
+  272  rm your_vlp16_070815.bag 
+  273  sudo apt-get install xrdp 
+  274  sudo apt-get install dconf-editor
+  275  sudo apt-get update 
+  276  dconf-editor 
+  277  sh pycharm.sh 
+  278  pip3 install jupyter notebook
+  279  sudo dpkg -i code_1.27.2-1536736588_amd64.deb 
+  280  ifconfig
+  281  ping 88
+  282  ping 10.7.5.88
+  283  ssh 88
+  284  ssh gaussian@10.7.5.88
+  285  export ROS_MASTER_URI=http://10.7.5.88:11311
+  286  rviz
+  287  ssh gaussian@10.7.5.88
+  288  export ROS_MASTER_URI=http://10.7.5.88:11311
+  289  rviz
+  290  pip install pycocotools
+  291  pip install Cython
+  292  pip -V
+  293  python
+  294  sudo rm /usr/lib/python
+  295  sudo rm /usr/bin/python
+  296  sudo ln -s /usr/bin/python3.5 /usr/bin/python
+  297  pip -V
+  298  pip install pycocotools
+  299  pip install Cython
+  300  export ROS_MASTER_URI=http://10.7.5.88:11311
+  301  rviz
+  302  ssh gaussian@10.7.5.88
+  303  sudo add-apt-repository ppa:maarten-baert/simplescreenrecorder
+  304  sudo apt-get update
+  305  sudo apt-get install simplescreenrecorder
+  306  export ROS_MASTER_URI=http://10.7.5.88:11311
+  307  rviz
+  308  export ROS_MASTER_URI=http://10.7.5.88:11311
+  309  rviz
+  310  export ROS_MASTER_URI=http://10.7.5.88:11311
+  311  rviz
+  312  export ROS_MASTER_URI=http://10.7.5.88:11311
+  313  rviz
+  314  export ROS_MASTER_URI=http://10.7.5.88:11311
+  315  rviz
+  316  export ROS_MASTER_URI=http://10.7.5.88:11311
+  317  rviz
+  318  ssh gaussian@10.7.5.88
+  319  ping 10.7.5.88
+  320  export ROS_MASTER_URI=http://10.7.5.88:11311
+  321  rviz
+  322  ssh gaussain@10.7.5.88
+  323  ping 10.7.5.88
+  324  ssh gaussian@10.7.5.88
+  325  export ROS_MASTER_URI=http://10.7.5.88:11311
+  326  rviz
+  327  export ROS_MASTER_URI=http://10.7.5.88:11311
+  328  rviz
+  329  ssh gaussian@10.7.5.88
+  330  ping 10.7.5.88
+  331  ifconfig
+  332  ping 10.7.5.88
+  333  ifconfig
+  334  ping 10.7.5.88
+  335  ssh gaussian@10.7.5.88
+  336  scp gaussian@10.7.5.88:/root/hanbin_bak/2018-04-18-10-43-25.bag ./
+  337  sudo scp gaussian@10.7.5.88:/root/hanbin_bak/2018-04-18-10-43-25.bag ./
+  338  sudo su
+  339  ls
+  340  scp multi_ssd.zip gaussian@10.7.5.88:
+  341  ssh gaussian@10.7.5.88
+  342  lll
+  343  ll
+  344  ssh gaussian@10.7.5.88
+  345  export ROS_MASTER_URI=http://10.7.5.88:11311
+  346  rviz
+  347  scp /home/gs/Downloads/keyboard_controller gaussian@10.7.5.88:
+  348  rviz
+  349  export ROS_MASTER_URI=http://10.7.5.88:11311
+  350  rviz
+  351  ssh gaussian@10.7.5.88
+  352  cd Downloads/
+  353  ls
+  354  rosbag info rs_map_sample_data.bag 
+  355  ls
+  356  sudo
+  357  sudo su
+  358  ssh-keygen -f "/home/gs/.ssh/known_hosts" -R 10.7.5.88
+  359  ssh gaussian@10.7.5.88
+  360  ifconfig 
+  361  exit
+  362  cd Downloads/
+  363  ls
+  364  sudo dpkg -i astrill-setup-linux64.deb 
+  365  ssh gaussian@10.7.5.88
+  366  vim test
+  367  l
+  368  ls
+  369  ifconfig 
+  370  ls
+  371  ll
+  372  roscore
+  373  vim .bashrc 
+  374  ls
+  375  roscore
+  376  python
+  377  sudo rm /usr/bin/python
+  378  sudo ln -s  /usr/bin/python2.7 /usr/bin/python
+  379  python
+  380  roscore
+  381  ssh gaussian@10.7.5.88
+  382  ssh gaussian@10.7.5.88
+  383  ls
+  384  ssh gaussian@10.7.5.88
+  385  ls
+  386  ssh gaussian@10.7.5.88
+  387  s
+  388  ssh gaussian@10.7.5.88
+  389  sudo su
+  390  ssh gaussian@10.7.5.88
+  391  ssh gaussian@10.7.5.88
+  392  ls
+  393  ssh gaussian@10.7.5.88
+  394  ls
+  395  ssh gaussian@10.7.5.88
+  396  sudo su
+  397  ssh gaussian@10.7.5.88
+  398  python
+  399  ls
+  400  cd /usr/bin/
+  401  ls
+  402  ls | grep python
+  403  cd
+  404  ks
+  405  ls
+  406  ll
+  407  rm bag_2018-10-08-19-27-41.bag
+  408  ls
+  409  mkdir data
+  410  ls
+  411  cd data/
+  412  ls
+  413  mkdir nuscenes
+  414  cd && git clone https://github.com/nutonomy/nuscenes-devkit.git
+  415  cd nuscenes-devkit/
+  416  ls
+  417  pip install -r requirements.txt
+  418  pip install --upgrade pip
+  419  pip install -r requirements.txt
+  420  cd
+  421  cd nuscenes-devkit/
+  422  pip install -r requirements.txt 
+  423  sudo pip install -r requirements.txt 
+  424  sudo pip install -r requirements.txt
+  425  pip install virtualenvwrapper
+  426  sudo pip install virtualenvwrapper
+  427  sudo  pip install virtualenvwrapper
+  428  cd nuscenes-devkit/
+  429  sudo pip install -r requirements.txt
+  430  sudo add-apt-repository ppa:deadsnakes/ppa
+  431  sudo apt-get update
+  432  ls
+  433  sudo apt-get install python3.7
+  434  sudo pip install virtualenvwrapper
+  435  cd /usr/bin/
+  436  ls
+  437  vim pip
+  438  sudo vim pip
+  439  cd ..
+  440  cd local/bin/
+  441  ls pyt
+  442  ls
+  443  ls | grep python
+  444  cd 
+  445  cd /usr/bin/
+  446  ls | grep python
+  447  cd
+  448  mkvirtualenv nuscenes --python /usr/bin/python3.7
+  449  source .bashrc
+  450  mkvirtualenv nuscenes --python /usr/bin/python3.7
+  451  cd
+  452  sudo pip install virtualenvwrapper
+  453  vim .bashrc 
+  454  sudo source /usr/local/bin/virtualenvwrapper.sh 
+  455  source /usr/local/bin/virtualenvwrapper.sh 
+  456  source ~/.bashrc
+  457  cd /usr/local/bin/
+  458  ls virtualenvwrapper.sh 
+  459  cd nuscenes-devkit/
+  460  mkvirtualenv nuscenes --python 
+  461  workon nuscenes
+  462  cd nuscenes-devkit/
+  463  mkvirtualenv nuscenes --python /usr/bin/python3.7
+  464  ls
+  465  pyhton --version
+  466  python --version
+  467  ls
+  468  vim ~/.bashrc
+  469  source ~/.bashrc
+  470  ls
+  471  vim .bashrc
+  472  cd
+  473  vim .bashrc
+  474  source .bashrc 
+  475  cd nuscenes-devkit/
+  476  cd
+  477  vim .virtualenvs/nuscenes/bin/postactivate 
+  478  source .bashrc 
+  479  source .virtualenvs/nuscenes/bin/postactivate 
+  480  mkvirtualenv nuscenes --python 
+  481  cd nuscenes-devkit/
+  482  mkvirtualenv nuscenes --python 
+  483  cd
+  484  vim .bashrc 
+  485  source .bashrc 
+  486  cd nuscenes-devkit/
+  487  pip install -r requirements.txt 
+  488  sudo pip install -r requirements.txt 
+  489  python
+  490  ls
+  491  python --version
+  492  ls
+  493  rm /usr/bin/python 
+  494  sudo rm /usr/bin/python 
+  495  sudo ln -s /usr/bin/python3.7 /usr/bin/python
+  496  python --version
+  497  ls
+  498  cd
+  499  vim .bashrc 
+  500  source .bashrc 
+  501  vim .virtualenvs/nuscenes/bin/postactivate 
+  502  jupyter notebook $HOME/nuscenes-devkit/python-sdk/tutorial.ipynb
+  503  sudo pip install -r requirements.txt
+  504  vim /usr/bin/pip
+  505  sudo vim /usr/bin/pip
+  506  sudo pip install -r requirements.txt
+  507  pip install --upgrade pip
+  508  sudo pip install --upgrade pip
+  509  cd nuscenes-devkit/
+  510  pip install -r requirements.txt
+  511  sudo pip install -r requirements.txt
+  512  vim ~/.virtualenvs/nuscenes/bin/postactivate
+  513  sudo pip install virtualenvwrapper
+  514  cd
+  515  vim .bashrc 
+  516  ls
+  517  python --version
+  518  sudo rm /usr/bin/python
+  519  sudo ln -s /usr/bin/python3.7 /usr/bin/python
+  520  workon nuscenes
+  521  cd nuscenes-devkit/
+  522  ls
+  523  jupyter notebook $HOME/nuscenes-devkit/python-sdk/tutorial.ipynb
+  524  mkvirtualenv nuscenes --python /usr/bin/python3.7
+  525  ls
+  526  jupyter notebook $HOME/nuscenes-devkit/python-sdk/tutorial.ipynb
+  527  cd
+  528  cd .local/bin/
+  529  ls
+  530  cd
+  531  cd 
+  532  cd /usr/local/
+  533  ls
+  534  cd bin/
+  535  ks
+  536  ls
+  537  ls | grep python
+  538  ll
+  539  cd ../..
+  540  ls
+  541  cd bin/
+  542  ll | grep python
+  543  jupyter --version
+  544  python --version
+  545  ls /usr/bin/python
+  546  ll /usr/bin/python
+  547  ls
+  548  cd nuscenes-devkit/
+  549  ls
+  550  python
+  551  python --version
+  552  code .
+  553  ls
+  554  jupyter notebook $HOME/nuscenes-devkit/python-sdk/tutorial.ipynb
+  555  sudo pip install -r requirements.txt
+  556  vim ~/.bashrc 
+  557  jupyter notebook $HOME/nuscenes-devkit/python-sdk/tutorial.ipynb
+  558  ls
+  559  sudo rm python3
+  560  sudo ln -ls python3.7 python3
+  561  sudo ln -s python3.7 python3
+  562  ls
+  563  sudo rm python3
+  564  sudo ln -s /usr/bin/python3.7 /usr/bin/python3 
+  565  ls | grep python3.7-config
+  566  ls python3.7-config
+  567  locate python3.7-config
+  568  sudo rm python3
+  569  sudo ln -s /usr/bin/python3.5 /usr/bin/python3
+  570  pip3 remove jupyter
+  571  pip3 uninstall  jupyter
+  572  python --version
+  573  python
+  574  python3
+  575  sudo rm python
+  576  sudo ln -s python3.7 python3
+  577  ll python
+  578  sudo ln -s python3.5 python
+  579  python
+  580  python3
+  581  pip3 -v
+  582  pip3 --version
+  583  pip3
+  584  pip
+  585  vim /home/gs/.local/bin/pip
+  586  pip3
+  587  ll python
+  588  ll python3
+  589  rm python
+  590  sudo rm python
+  591  sudo ln -s /usr/bin/python3.5 /usr/bin/python
+  592  ll python
+  593  pip3
+  594  ~ pip3 -V
+  595  sudo rm python
+  596  sudo ln -s /usr/bin/python3.7 /usr/bin/python
+  597  python --version
+  598  pip3 -V
+  599  jupyter notebook
+  600  bash: /home/gs: Is a directory
+  601  cd
+  602  cd nuscenes-devkit/
+  603  bash: /home/gs: Is a directory
+  604  jupyter notebook $HOME/nuscenes-devkit/python-sdk/tutorial.ipynb
+  605  jupyter --version
+  606  whereis jupyter
+  607  pip3 uninstall jupyter
+  608  sudo pip3 uninstall jupyter
+  609  jupyter --version
+  610  pip3.7 install jupyter
+  611  sudo pip3.7 install jupyter
+  612  jupyter-1.0.0 notebook
+  613  ./usr/local/lib/python3.7/dist-packages/jupyter.py notebook
+  614  /usr/local/lib/python3.7/dist-packages/jupyter.py notebook
+  615  sudo /usr/local/lib/python3.7/dist-packages/jupyter.py notebook
+  616  ll /usr/local/lib/python3.7/dist-packages/
+  617  whereis jupyter
+  618  /home/gs/.local/bin/jupyter -V
+  619  /home/gs/.local/bin/jupyter --version
+  620  /usr/local/etc/jupyter --version
+  621  /usr/local/bin/jupyter --version
+  622  pip3 --version
+  623  pip --version
+  624  ll /usr/local/lib/python3.7/dist-packages/
+  625  ll /usr/local/lib/python3.7/dist-packages/jupyter-1.0.0.dist-info/
+  626  cd ..
+  627  sudo rm /usr/bin/python3
+  628  sudo ln -s /usr/bin/python3.7 /usr/bin/python3
+  629  jupyter --version
+  630  vim /home/gs/nuscenes-devkit/python-sdk/nuscenes_utils/nuscenes.py 
+  631  jupyter notebook $HOME/nuscenes-devkit/python-sdk/tutorial.ipynb
+  632  python3
+  633  pip uninstall jupyter
+  634  sudo pip uninstall jupyter
+  635  python --version
+  636  python3 --version
+  637  pip3 --version
+  638  pip3 install jupyter
+  639  sudo pip3 install jupyter
+  640  jupyter --version
+  641  jupyter notebook $HOME/nuscenes-devkit/python-sdk/tutorial.ipynb
+  642  whereis jupyter
+  643  /usr/local/bin/jupyter --version
+  644  jupyter --version
+  645  pip3 uninstall jupyter
+  646  ll
+  647  pip3
+  648  cd /usr/bin/
+  649  sudo su
+  650  cd ~
+  651  sudo easy_install pip
+  652  sudo easy_install3 pip
+  653  sudo easy_install3 pip3
+  654  sudo apt remove python-pip
+  655  pip3
+  656  pip3.7 
+  657  exit()
+  658  sudo apt remove python-pip
+  659  sudo easy_install pip
+  660  python
+  661  python3
+  662  ll /usr/bin/pip
+  663  cd /usr/bin/
+  664  ll
+  665  ll pip3 
+  666  ll pip2
+  667  ll pip3 
+  668  pip3
+  669  exit()
+  670  sudo python -m pip install -U pip==8.0.1
+  671  pip
+  672  pip3
+  673  pip3 remove jupyter
+  674  pip3 uninstall jupyter
+  675  jupyter --version
+  676  sudo python3 -m pip install -U pip==8.0.1
+  677  pip-autoremove jupyter -y
+  678  pip
+  679  exit()
+  680  pip3 install pip-autoremove
+  681  sudo pip3 install pip-autoremove
+  682  pip-autoremove jupyter -y
+  683  pip3-autoremove jupyter -y
+  684  sudo pip3 install pip3-autoremove
+  685  vim 
+  686  python
+  687  python3.5
+  688  jupyter notebook $HOME/nuscenes-devkit/python-sdk/tutorial.ipynb
+  689  mkvirtualenv nuscenes --python /usr/bin/python3.7
+  690  jupyter notebook $HOME/nuscenes-devkit/python-sdk/tutorial.ipynb
+  691  ls
+  692  pip3 
+  693  pip3 -v
+  694  pip3 --version
+  695  pip3 install -r requirements.txt
+  696  sudo pip3 install -r requirements.txt
+  697  jupyter notebook $HOME/nuscenes-devkit/python-sdk/tutorial.ipynb
+  698  jupyter
+  699  jupyter --version
+  700  whereis jupyter
+  701  ll /usr/local/bin/jupyter
+  702  python --version
+  703  pip3 install jupyter
+  704  jupyter
+  705  jupyter notebook
+  706  jupyter --version
+  707  ll /usr/lib/python3/dist-packages/pexpect/spawnbase.py
+  708  cd /usr/lib/python3/
+  709  pwd
+  710  cd ..
+  711  ll
+  712  jupyter notebook
+  713  jupyter notebook $HOME/nuscenes-devkit/python-sdk/tutorial.ipynb
+  714  vim /home/gs/nuscenes-devkit/python-sdk/nuscenes_utils/nuscenes.py
+  715  python
+  716  pip
+  717  exit() pip3
+  718  pip3
+  719  pip3 --version
+  720  pip3 uninstall jupyter
+  721  jupyter --version
+  722  ll
+  723  locate jupyter
+  724  python -m pip uninstall pip
+  725  sudo python -m pip uninstall pip
+  726  sudo python3 -m pip uninstall pip
+  727  sudo python2 -m pip uninstall pip
+  728  sudo python3.7 -m pip uninstall pip
+  729  pip3
+  730  sudo python -m pip insgtall -U pip==8.0.1
+  731  sudo python -m pip install -U pip==8.0.1
+  732  pip
+  733  pip3
+  734  pip3.5 
+  735  pip3 install jupyter
+  736  sudo pip3 install jupyter
+  737  pip3 uninstall jupyter
+  738  sudo pip3 uninstall jupyter
+  739  jupyter -version
+  740  jupyter --version
+  741  pip-autoremove jupyter -y
+  742  jupyter kernelspec list
+  743  cd /home/gs/.local/share/jupyter/kernels/python3
+  744  ll
+  745  vim kernel.json 
+  746  pip3 uninstall notebook
+  747  jupyter --version
+  748  pip3 uninstall jupyter_core
+  749  jupyter --versio
+  750  jupyter --version
+  751  jupyter
+  752  exit
+  753  cd ..
+  754  ls
+  755  sudo su
+  756  ls
+  757  ifconfig
+  758  cd ~/
+  759  ls
+  760  tar xvf ddb61297-e5ae-4628-bbed-bdbe7d1623fd.tar.gz 
+  761  ls
+  762  cd ddb61297-e5ae-4628-bbed-bdbe7d1623fd/
+  763  s
+  764  ls
+  765  eog dc487a7a-c0bf-4a93-b819-ebed0babc29b.png 
+  766  ls
+  767  vim 21f57134-9af9-4746-b8b8-cd5640f9e4ea.yaml 
+  768  roscore
+  769  ls
+  770  ls
+  771  git clone http://git.gs-robot.com/navigation/localization.git
+  772  cd localization/
+  773  git checkout version_for_no_multi_constraint 
+  774  git log
+  775  ssh gaussian@10.7.5.88
+  776  ssh gaussian@10.7.5.88
+  777  sudo dpkg -i zoom_amd64.deb 
+  778  python
+  779  sudo dpkg -i zoom_amd64.deb 
+  780  dpkg -i zoom_amd64.deb 
+  781  ls
+  782  cd python-sdk/
+  783  ls
+  784  cd nuscenes_utils/
+  785  ls
+  786  cd ..
+  787  ls
+  788  mkdir output
+  789  rm *.txt
+  790  ls
+  791  cd output/
+  792  sl
+  793  ls
+  794  cat 0.txt 
+  795  clear
+  796  cat 0.txt 
+  797  '
+  798  cat 0.txt 
+  799  rm *.txt
+  800  ls
+  801  cat n008-2018-05-21-11-06-59-0400__LIDAR_TOP__1526915243047392.txt
+  802  ls
+  803  rm *.txt
+  804  cd .d.
+  805  ls
+  806  cd ..
+  807  kls
+  808  ls
+  809  mv nuscenes_utils/write_box.py .
+  810  ls
+  811  cat write_box.py 
+  812  ls
+  813  python write_box.py 
+  814  ls
+  815  cd output/
+  816  rm *
+  817  ls
+  818  rm *
+  819  ls
+  820  uname --all
+  821  ls
+  822  ls
+  823  cd ..
+  824  ls
+  825  cd ..
+  826  ls
+  827  cd ddb61297-e5ae-4628-bbed-bdbe7d1623fd/
+  828  ls
+  829  gedit 21f57134-9af9-4746-b8b8-cd5640f9e4ea.yaml 
+  830  ls
+  831  cd ..
+  832  ll
+  833  ls
+  834  rm -rf localization
+  835  ls
+  836  nautilus .
+  837  ls
+  838  cd nuscenes-devkit/
+  839  jupyter notebook
+  840  ifconfig 
+  841  roscore
+  842  expoprt ROS_MASTER_URI=http://10.7.5.88:11311
+  843  roscore
+  844  cd /usr/bin/
+  845  s
+  846  ls
+  847  ls python
+  848  ll python
+  849  sudo rm python
+  850  sudo ln -ls python2.7 python
+  851  sudo ln -s python2.7 python
+  852  python --version
+  853  roscore
+  854  expoprt ROS_HOSTNAME=http://10.7.5.112
+  855  python --version
+  856  expoprt ROS_HOSTNAME=10.7.5.112
+  857  ls
+  858  cat test 
+  859  expoprt ROS_HOSTNAME=10.7.5.112
+  860  export 
+  861  export ROS_MASTER_URI=http://10.7.5.88:11311
+  862  rviz
+  863  expoprt ROS_HOSTNAME=10.7.5.112
+  864  rviz
+  865  expoprt ROS_IP=10.7.5.112
+  866  rviz
+  867  expoprt ROS_IP=10.7.5.112
+  868  c
+  869  cd
+  870  expoprt ROS_HOSTNAME=10.7.5.112
+  871  rviz
+  872  roscore
+  873  ifconfig 
+  874  ssh gaussian@10.7.5.88
+  875  ssh gaussian@10.7.5.88
+  876  ssh-keygen -f "/home/gs/.ssh/known_hosts" -R 10.7.5.88
+  877  ssh gaussian@10.7.5.88
+  878  ssh gaussian/210.7.5.88
+  879  ssh gaussian@10.7.5.88
+  880  rviz
+  881  cd 
+  882  rviz
+  883  rviz -d localization.rviz 
+  884  roscore
+  885  cd 32801a49-fe63-4515-957d-c69a61662d03/
+  886  sudo apt-get install ros-kinetic-map-server 
+  887  rosrun map_server map_server map.yaml _frame_id="map"
+  888  sudo apt-get install kazam
+  889  sudo apt-get -f  install kazam
+  890  sudo apt-get -f  install
+  891  sudo apt-get install kazam
+  892  ifconfig 
+  893  cd Downloads/budiubao/
+  894  ls
+  895  rosbag play 2018-10-31-19-26-52_0.bag --clock 
+  896  rosbag play 2018-10-31-19-26-52_0.bag 2018-10-31-19-26-52_1.bag 2018-10-31-19-26-52_2.bag 2018-10-31-19-26-52_3.bag 2018-10-31-19-26-52_4.bag 2018-10-31-19-26-52_5.bag --clock -r2
+  897  cd
+  898  rviz
+  899  rviz -d localization.rviz 
+  900  roscore
+  901  cd 32801a49-fe63-4515-957d-c69a61662d03/
+  902  rosrun map_server map_server map.yaml _frame_id:"map"
+  903  sudo apt-get update kazam
+  904  sudo apt-get upgrade kazam
+  905  apt-cache search SimpleScreenRecorder
+  906  sudo apt-get install SimpleScreenRecorder
+  907  sudo apt-get install simplescreenrecorder
+  908  cd Downloads/budiubao/
+  909  rosbag play 2018-10-31-19-26-52_0.bag 2018-10-31-19-26-52_1.bag 2018-10-31-19-26-52_2.bag 2018-10-31-19-26-52_3.bag 2018-10-31-19-26-52_4.bag 2018-10-31-19-26-52_5.bag --clock -r2
+  910  ls
+  911  cat test 
+  912  export ROS_MASTER_URI=http://10.7.5.88:11311
+  913  ls
+  914  rostopic echo /scan
+  915  ifconfig
+  916  ls
+  917  rostopic list
+  918  rostopic echo /scan
+  919  rosrun camera_calibration cameracalibrator.oy --size 7x6 --square 0.028 image:=/rgb_image_hd
+  920  rosrun camera_calibration cameracalibrator.py --size 7x6 --square 0.028 image:=/rgb_image_hd
+  921  ssh gauassian@10.7.5.88
+  922  ssh gaussian@10.7.5.88
+  923  rosdep install camera_calibration
+  924  vim ~/.bashrc
+  925  source ~/.bashrc
+  926  sudo rosdep install camera_calibration
+  927  roscore
+  928  rosdep update
+  929  rosdep install camera_calibration
+  930  ssh gaussian@10.7.5.88
+  931  ssh-keygen -f "/home/gs/.ssh/known_hosts" -R 10.7.5.88
+  932  ssh gaussian@10.7.5.88
+  933  rviz
+  934  export ROS_MASTER_URI=http://10.7.5.88:11311
+  935  rviz 
+  936  export ROS_MASTER_URI=http://10.7.5.88:11311
+  937  rviz 
+  938  rviz
+  939  roscore 
+  940  ll
+  941  cd bags/
+  942  ll
+  943  cd ..
+  944  ll
+  945  rosbag play 2018-11-19-13-43-40.bag 
+  946  roscire
+  947  roscore
+  948  rviz 
+  949  ls
+  950  cat test 
+  951  vim test 
+  952  ifconfig 
+  953  ll
+  954  ls
+  955  cat test 
+  956  ssh gaussian705
+  957  ssh gaussian@10.7.5.88
+  958  ffmpeg -i simplescreenrecorder-2018-11-20_16.48.45.mkv -codec copy 2018-1120.mp4
+  959  sudo apt-get install ffmpeg
+  960  ssh gaussian@10.7.5.88
+  961  cd d..
+  962  cd ..
+  963  catkin_make
+  964  rosrun rviz rviz 
+  965  roscore
+  966  cd catkin_ws/
+  967  catkin_make
+  968  cd src/
+  969  ls
+  970  git clone https://github.com/ros-visualization/interactive_markers.git
+  971  cd interactive_markers/
+  972  git branch 
+  973  git branch  -a
+  974  rosrun interactive_marker_tutorials basic_controls
+  975  sudo apt-get install bazel
+  976  sudo apt-get install openjdk-8-jdk
+  977  echo "deb [arch=amd64] http://storage.googleapis.com/bazel-apt stable jdk1.8" | sudo tee /etc/apt/sources.list.d/bazel.list curl https://bazel.build/bazel-release.pub.gpg | sudo apt-key add -
+  978  --------------------- 
+  979  作者：Nicholas_Wong 
+  980  来源：CSDN 
+  981  原文：https://blog.csdn.net/nicholas_wong/article/details/76474751 
+  982  版权声明：本文为博主原创文章，转载请附上博文链接！
+  983  sudo apt-get update && sudo apt-get install bazel
+  984  sudo apt-get upgrade bazel
+  985  bazel --version
+  986  bazel -v
+  987  bazel
+  988  git 
+  989  git clone git@git.gs-robot://sunshichao/gs_console
+  990  git clone git@git.gs-robot.com:autoscrubber/op_node.git
+  991  ls
+  992  ll
+  993  cd ssh
+  994  cd .ssh/
+  995  ls
+  996  cd 
+  997  ls
+  998  mkdir workspace
+  999  cd workspace/
+ 1000  git clone git@git.gs-robot.com:sunshichao/gs_console.git
+ 1001  ssh-keygen -o -t rsa -C "tomarschou@163.com" -b 4096
+ 1002  ssh-keygen -o -t rsa -C "zhouyanyan@gs-robot.com" -b 4096
+ 1003  ls
+ 1004  ll
+ 1005  cd .ssh
+ 1006  cd
+ 1007  cd .ssh/
+ 1008  ls
+ 1009  cat id_rsa.pub 
+ 1010  cd -
+ 1011  cd workspace/
+ 1012  ls
+ 1013  git clone git@git.gs-robot.com:sunshichao/gs_console.git
+ 1014  ssh-add
+ 1015  git clone git@git.gs-robot.com:sunshichao/gs_console.git
+ 1016  ls
+ 1017  cd .ssh/
+ 1018  ls
+ 1019  sudo apt install xclip
+ 1020  xclip -sel clip < ~/.ssh/id_rsa.pub
+ 1021  cd .ssh/
+ 1022  ls
+ 1023  cd workspace/
+ 1024  ls
+ 1025  cd op_node/
+ 1026  ls
+ 1027  cd ..
+ 1028  ls
+ 1029  cd gs_console/
+ 1030  ls
+ 1031  cat build.sh 
+ 1032  ./build.sh kinetic_release
+ 1033  ls
+ 1034  cat build.sh 
+ 1035  git clone http://git.gs-robot.com/autosrcubber/op_node.git
+ 1036  git clone http://git.gs-robot.com/autoscrubber/op_node.git
+ 1037  ls
+ 1038  vim .gitmodules 
+ 1039  ls
+ 1040  git branch -a
+ 1041  ls
+ 1042  cd ..
+ 1043  ls
+ 1044  cd gs_console/
+ 1045  ls
+ 1046  mv op_node/ ../
+ 1047  ls
+ 1048  gst
+ 1049  git status
+ 1050  cd ..
+ 1051  ls
+ 1052  cd op_node/
+ 1053  ls
+ 1054  git status
+ 1055  ls
+ 1056  vim .gitmodules 
+ 1057  git checkout release-0.0.3 
+ 1058  vim .gitmodules 
+ 1059  vim .git/config 
+ 1060  git submodule init 
+ 1061  vim .git/config 
+ 1062  git submodule update
+ 1063  ls
+ 1064  git checkout ssh_greeter 
+ 1065  git submodule udate
+ 1066  git submodule update 
+ 1067  ./build.sh release
+ 1068  git rebase release-0.0.3 
+ 1069  git status
+ 1070  git log
+ 1071  git branch -a
+ 1072  git rebase --abort
+ 1073  ls
+ 1074  git checkout ssh_greeter 
+ 1075  git branch -a
+ 1076  git rebase release-0.0.3 
+ 1077  git status
+ 1078  git checkout ssh_greeter 
+ 1079  git config --global test@gs-robot.com
+ 1080  git config --global test
+ 1081  git config --global user.email test@gs-robot.com
+ 1082  git config --global user.name test@gs-robot.com
+ 1083  git rebase release-0.0.3 
+ 1084  git status
+ 1085  cd internal_deps/gs
+ 1086  ls
+ 1087  git branch -a
+ 1088  git checkout master 
+ 1089  git pull origin master 
+ 1090  ls
+ 1091  cd 
+ 1092  cd -
+ 1093  cd ..
+ 1094  ls
+ 1095  cd ..
+ 1096  ls
+ 1097  git status
+ 1098  git push origin ssh_greeter 
+ 1099  git push origin ssh_greeter --force
+ 1100  git branch -a
+ 1101  git push origin ssh_greeter --force
+ 1102  ls
+ 1103  vim build.sh 
+ 1104  ./build.sh aarch64_release
+ 1105  ./build.sh kinetic_release
+ 1106  ls
+ 1107  s
+ 1108  ls
+ 1109  history
+ 1110  touch a.xtx
+ 1111  touch a.txt
+ 1112  history >> a.txt 
